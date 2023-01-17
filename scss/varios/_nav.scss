@@ -1,0 +1,29 @@
+@import "../variables/color";
+
+.navegacion{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    padding: 2%;
+    background-color: $trans;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.navegacion_menu li{
+display: inline;
+list-style: none;
+
+}
+.navegacion_menu li a{
+    color: $oscuro;
+    font-size: 150%;
+    padding: 2%;
+    text-decoration: none;
+    
+}
+.navegacion_menu a:hover{
+    background-color: $oscuro;
+    color: $claro;
+    
+}

@@ -1,0 +1,105 @@
+@import "../variables/color";
+
+.body_locales{
+    background-color: rgb(175, 155, 155);
+}
+
+.conteiner-all{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+
+.boox{
+    width: 250px;
+    height: 180px;
+    padding: 20px;
+    margin: 20px;
+    background: $oscuro;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.boox:hover{
+    transform: translate(5px, -5px);
+    transition: all 300ms;
+    box-shadow: -10px 10px 20px -10px $oscuro;
+    
+
+}
+
+.boox .iconn{
+    transform: translateY(30px);
+}
+.boox:hover .iconn{
+    transform: translateY(0);
+}
+
+.boox .iconn,
+.boox h3,
+.boox p{
+    position: relative;
+    z-index: 1;
+    transition: all 200ms;
+}
+
+.boox h3,
+.boox p{
+    margin-top: 10px;
+    
+}
+
+.boox h3{
+    font-size: 30px;
+    transform: translateY(30px);
+    
+}
+.boox:hover h3{
+    transform: translateY(0);
+    
+}
+
+.boox p{
+    font-size: 14px;
+    transform: translateY(100px);
+    opacity: 0;
+    
+}
+.boox:hover p{
+    transform: translateY(0);
+    opacity: 1;
+    
+}
+.conteiner-box a{
+    color: rgb(132, 120, 120);
+    text-decoration: none;
+}
+.boox:hover a{
+    color: $oscuro;
+}
+
+.boox .background-jover{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 250px;
+    left: -170px;
+    border-radius: 100%;
+    transition: all 300ms;
+}
+
+.boox:hover .background-jover{
+    width: 400px;
+    height: 400px;
+    top:-70px;
+    left: -70px;
+    background: $claro;
+}
+
+.conteiner-box{
+    display: flex;
+    flex-wrap: wrap;
+}

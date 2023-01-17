@@ -1,0 +1,24 @@
+//mobile o desktop
+@import "./_pantalla/mobile";
+
+
+
+// PRINCIPIO
+@import "./reset/reset";
+@import "./varios/logo";
+@import "./varios/nav";
+
+
+//PAGINAS
+@import "./paginas/principal";
+@import "./paginas/historia";
+@import "./paginas/recetas";
+@import "./paginas/productos";
+@import "./paginas/contacto";
+@import "./paginas/locales";
+
+
+// FOOTER
+@import "./varios/footer";
+
+

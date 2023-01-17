@@ -1,0 +1,76 @@
+@import "../variables/color";
+
+.body_recetas{
+    background-image: url(../imag/fondoreceta.webp);
+    
+}
+
+.container-all{
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.container-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 285px;
+    height: 180px;
+    padding: 20px;
+    background-color: $oscuro;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 300ms;
+    margin: 20px;
+}
+.box:hover{
+    transform: translate(5px, -5px);
+    box-shadow: -10px 10px 20px -10px $oscuro;
+}
+
+.box .icon,
+.box p{
+    position: relative;
+    z-index: 1;
+    transition: all 300ms;
+}
+
+.box p{
+    margin-top: 10px;
+    font-size: 10px;
+    color: $claro;
+}
+
+.box .background-hover{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 250px;
+    left: -170px;
+    border-radius: 100%;
+    transition: all 300ms;
+    background: $morado;
+}
+
+.box:hover .background-hover{
+    width: 400px;
+    height: 400px;
+    top: -70px;
+    left: -70px;
+}
+
+.box:hover p{
+    color: $claro;
+    font-size: 20px;
+}
+
+.container-box a{
+    text-decoration: none;
+    color: $oscuro;
+}

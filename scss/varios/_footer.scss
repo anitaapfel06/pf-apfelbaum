@@ -1,0 +1,57 @@
+@import "../variables/color";
+
+footer{
+    width: 100%;
+    padding: 3% 0%;
+    border-radius: 15px;
+}
+.container_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 60%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.box_footer{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+
+}
+
+.box_footer h5{
+    font-size: 90%;
+    margin-bottom: 5%;
+    color: black;
+}
+
+.box_footer a{
+    font-size: 60%;
+    color: black;
+}
+
+.box_footer a:hover{
+    opacity: 0.8;
+}
+.box_footer a .fab{
+    font-size: 5%;
+}
+
+.box_copyright{
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 0% 30%;
+}
+.box_copyright p{
+    margin-top: 3%;
+    color: $gris-oscuro;
+}
+footer hr{
+    width: 100%;
+    border: none;
+    height: 2px;
+    background-color:  brown;
+}

@@ -1,0 +1,29 @@
+
+
+.body_historia{
+    background-image: url(../imag/historia1.jpg);
+    
+}
+
+.padre{
+    display: grid;
+    grid-template-rows: 90% 10%;
+    grid-row-gap:  2%;
+    align-content: center;
+    
+}
+.hijoText{
+    justify-self: start;
+    padding: 3%;
+}
+.hijoImg{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+.hijoImg img{
+    width: 20%;
+    height: 45%;
+    margin: 6px;
+
+}

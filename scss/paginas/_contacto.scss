@@ -1,0 +1,57 @@
+@import "../variables/color";
+
+.body_contacto{
+    background-color: $gris;
+}
+
+main{
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(37%, -5%);
+    
+}
+
+.contenedor_login_register{
+    max-width: 25%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contenedor_login_register form{
+
+    padding: 15% 5%;
+    background: $azul;
+    border-radius: 20px;
+}
+
+.contenedor_login_register img{
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+.contenedor_login_register form input{
+    margin-top: 5%;
+    padding: 2.5%;
+    border: none;
+    background-color: $gris;
+    font-size: 90%;
+    outline: none;
+    width: 100%;
+}
+.contenedor_login_register form button{
+    padding: 2% 5%;
+    margin-top: 5%;
+    border: none;
+    font-size: 90%;
+    background-color: $claro;
+    cursor: pointer;
+    outline: none;
+}
+
+.formulario_login{
+    opacity: 1;
+    display: block;
+}
